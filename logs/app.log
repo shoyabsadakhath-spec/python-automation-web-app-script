@@ -1,0 +1,222 @@
+2026-06-14 17:20:57,929 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2026-06-14 17:20:57,929 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-14 17:20:57,931 - INFO -  * Restarting with stat
+2026-06-14 17:20:58,181 - WARNING -  * Debugger is active!
+2026-06-14 17:20:58,181 - INFO -  * Debugger PIN: 130-433-579
+2026-06-14 17:21:01,760 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:01] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-14 17:21:01,859 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:01] "GET /dashboard HTTP/1.1" 200 -
+2026-06-14 17:21:01,958 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-14 17:21:01,958 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-14 17:21:02,187 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-14 17:21:10,777 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:10] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:21:10,792 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:21:10,794 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:21:22,613 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:22] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:21:22,625 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:21:22,627 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:21:33,275 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:33] "GET /duplicates HTTP/1.1" 200 -
+2026-06-14 17:21:33,286 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:21:33,286 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:21:41,716 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:41] "GET /settings HTTP/1.1" 200 -
+2026-06-14 17:21:41,732 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:21:41,738 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:21:45,898 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:45] "GET /logs HTTP/1.1" 200 -
+2026-06-14 17:21:45,909 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:21:45,911 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:21:54,785 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:54] "GET /logs?search=odela HTTP/1.1" 200 -
+2026-06-14 17:21:54,796 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:21:54,799 - INFO - 127.0.0.1 - - [14/Jun/2026 17:21:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:03,178 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:03] "GET /logs?search= HTTP/1.1" 200 -
+2026-06-14 17:22:03,212 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:03,212 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:08,914 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:08] "GET /logs?search=odela HTTP/1.1" 200 -
+2026-06-14 17:22:08,949 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:08,951 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:19,123 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:19] "GET /logs?search= HTTP/1.1" 200 -
+2026-06-14 17:22:19,153 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:19,153 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:28,535 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:28] "GET /analytics HTTP/1.1" 200 -
+2026-06-14 17:22:28,559 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:28,559 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:32,676 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:32] "GET /cleanup HTTP/1.1" 200 -
+2026-06-14 17:22:32,707 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:32,707 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:38,103 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:38] "GET /duplicates HTTP/1.1" 200 -
+2026-06-14 17:22:38,133 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:38,133 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:40,213 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:40] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:22:40,247 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:40,250 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:43,269 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:43] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:22:43,302 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:22:43,307 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:44,340 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:44] "GET /dashboard HTTP/1.1" 200 -
+2026-06-14 17:22:44,369 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:22:44,371 - INFO - 127.0.0.1 - - [14/Jun/2026 17:22:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:23:06,993 - INFO - 127.0.0.1 - - [14/Jun/2026 17:23:06] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:23:07,028 - INFO - 127.0.0.1 - - [14/Jun/2026 17:23:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:23:07,028 - INFO - 127.0.0.1 - - [14/Jun/2026 17:23:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:23:19,126 - INFO - 127.0.0.1 - - [14/Jun/2026 17:23:19] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:23:19,148 - INFO - 127.0.0.1 - - [14/Jun/2026 17:23:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:23:19,148 - INFO - 127.0.0.1 - - [14/Jun/2026 17:23:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:10,141 - ERROR - SORT_FILES - ERROR - [WinError 267] The directory name is invalid: 'C:\\Users\\sadak\\Downloads\\customers-10000.zip'
+2026-06-14 17:25:10,162 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:10] "[32mPOST /sorter HTTP/1.1[0m" 302 -
+2026-06-14 17:25:10,173 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:10] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:25:10,202 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:10,204 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:18,476 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:18] "GET /duplicates HTTP/1.1" 200 -
+2026-06-14 17:25:18,507 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:18,507 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:23,046 - INFO - FIND_DUPLICATES - SUCCESS - Found 0 duplicate files
+2026-06-14 17:25:23,057 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:23] "POST /duplicates HTTP/1.1" 200 -
+2026-06-14 17:25:23,087 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:23,087 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:27,448 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:27] "GET /cleanup HTTP/1.1" 200 -
+2026-06-14 17:25:27,480 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:27,480 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:32,543 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:32] "POST /cleanup HTTP/1.1" 200 -
+2026-06-14 17:25:32,566 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:32,568 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:37,170 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:37] "GET /analytics HTTP/1.1" 200 -
+2026-06-14 17:25:37,193 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:37,193 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:41,224 - INFO - ANALYZE_FOLDER - SUCCESS - Found 0 files, 0 folders
+2026-06-14 17:25:41,255 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:41] "POST /analytics HTTP/1.1" 200 -
+2026-06-14 17:25:41,275 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:41,275 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:44,472 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:44] "GET /logs HTTP/1.1" 200 -
+2026-06-14 17:25:44,499 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:44,501 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:25:53,609 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:53] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:25:53,643 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:25:53,645 - INFO - 127.0.0.1 - - [14/Jun/2026 17:25:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:26:06,688 - ERROR - SORT_FILES - ERROR - [WinError 267] The directory name is invalid: 'C:\\Users\\sadak\\Downloads\\customers-10000.zip'
+2026-06-14 17:26:06,700 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:06] "[32mPOST /sorter HTTP/1.1[0m" 302 -
+2026-06-14 17:26:06,719 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:06] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:26:06,742 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:26:06,742 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:26:24,200 - ERROR - SORT_FILES - ERROR - [WinError 267] The directory name is invalid: 'C:\\Users\\sadak\\Downloads\\customers-10000.zip'
+2026-06-14 17:26:24,209 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:24] "[32mPOST /sorter HTTP/1.1[0m" 302 -
+2026-06-14 17:26:24,220 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:24] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:26:24,249 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:26:24,253 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:26:32,315 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:32] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:26:32,352 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:26:32,353 - INFO - 127.0.0.1 - - [14/Jun/2026 17:26:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:06,211 - ERROR - RENAME_FILES - ERROR - [WinError 267] The directory name is invalid: 'C:\\Users\\sadak\\Downloads\\customers-10000.zip'
+2026-06-14 17:27:06,232 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:06] "[32mPOST /renamer HTTP/1.1[0m" 302 -
+2026-06-14 17:27:06,252 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:06] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:27:06,275 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:27:06,278 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:16,954 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:16] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:27:16,985 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:16,988 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:27:25,010 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:25] "GET /logs HTTP/1.1" 200 -
+2026-06-14 17:27:25,044 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:27:25,046 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:30,702 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:30] "[35m[1mGET /export-logs HTTP/1.1[0m" 500 -
+2026-06-14 17:27:30,750 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:30] "GET /export-logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-14 17:27:30,784 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:30] "GET /export-logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-14 17:27:30,811 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:30] "GET /export-logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-14 17:27:30,827 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:30] "[36mGET /export-logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-14 17:27:38,209 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:38] "GET /analytics HTTP/1.1" 200 -
+2026-06-14 17:27:38,242 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:27:38,242 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:39,386 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:39] "GET /cleanup HTTP/1.1" 200 -
+2026-06-14 17:27:39,418 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:27:39,420 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:40,785 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:40] "GET /duplicates HTTP/1.1" 200 -
+2026-06-14 17:27:40,819 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:27:40,819 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:42,016 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:42] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:27:42,042 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:27:42,045 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:43,782 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:43] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:27:43,815 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:27:43,818 - INFO - 127.0.0.1 - - [14/Jun/2026 17:27:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:28:32,288 - INFO - RENAME_FILES - SUCCESS - Renamed 9 files. Errors: 0
+2026-06-14 17:28:32,303 - INFO - 127.0.0.1 - - [14/Jun/2026 17:28:32] "[32mPOST /renamer HTTP/1.1[0m" 302 -
+2026-06-14 17:28:32,320 - INFO - 127.0.0.1 - - [14/Jun/2026 17:28:32] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:28:32,345 - INFO - 127.0.0.1 - - [14/Jun/2026 17:28:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:28:32,347 - INFO - 127.0.0.1 - - [14/Jun/2026 17:28:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:29:30,018 - INFO - 127.0.0.1 - - [14/Jun/2026 17:29:30] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:29:30,052 - INFO - 127.0.0.1 - - [14/Jun/2026 17:29:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:29:30,054 - INFO - 127.0.0.1 - - [14/Jun/2026 17:29:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:48:17,967 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2026-06-14 17:48:17,972 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-14 17:48:17,973 - INFO -  * Restarting with stat
+2026-06-14 17:48:18,413 - WARNING -  * Debugger is active!
+2026-06-14 17:48:18,415 - INFO -  * Debugger PIN: 130-433-579
+2026-06-14 17:48:24,413 - INFO - 127.0.0.1 - - [14/Jun/2026 17:48:24] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-14 17:48:24,478 - INFO - 127.0.0.1 - - [14/Jun/2026 17:48:24] "GET /dashboard HTTP/1.1" 200 -
+2026-06-14 17:48:24,519 - INFO - 127.0.0.1 - - [14/Jun/2026 17:48:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:48:24,525 - INFO - 127.0.0.1 - - [14/Jun/2026 17:48:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:48:24,659 - INFO - 127.0.0.1 - - [14/Jun/2026 17:48:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-14 17:52:36,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+2026-06-14 17:52:36,344 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-14 17:52:36,344 - INFO -  * Restarting with stat
+2026-06-14 17:52:36,788 - WARNING -  * Debugger is active!
+2026-06-14 17:52:36,788 - INFO -  * Debugger PIN: 130-433-579
+2026-06-14 17:52:39,322 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:39] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-14 17:52:39,427 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:39] "GET /dashboard HTTP/1.1" 200 -
+2026-06-14 17:52:39,559 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:39,559 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:39] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-14 17:52:39,661 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-14 17:52:43,487 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:43] "GET /logs HTTP/1.1" 200 -
+2026-06-14 17:52:43,520 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:43,520 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:52:48,030 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:48] "GET /analytics HTTP/1.1" 200 -
+2026-06-14 17:52:48,057 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:48,059 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:52:51,112 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:51] "GET /cleanup HTTP/1.1" 200 -
+2026-06-14 17:52:51,140 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:51,140 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:52:52,525 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:52] "GET /duplicates HTTP/1.1" 200 -
+2026-06-14 17:52:52,551 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:52,551 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:52:53,539 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:53] "GET /sorter HTTP/1.1" 200 -
+2026-06-14 17:52:53,567 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:53,567 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:52:54,583 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:54] "GET /renamer HTTP/1.1" 200 -
+2026-06-14 17:52:54,613 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:54,614 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-14 17:52:56,826 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:56] "GET /logs HTTP/1.1" 200 -
+2026-06-14 17:52:56,857 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-14 17:52:56,857 - INFO - 127.0.0.1 - - [14/Jun/2026 17:52:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-15 11:03:37,386 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.101:5000
+2026-06-15 11:03:37,386 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-15 11:03:37,386 - INFO -  * Restarting with stat
+2026-06-15 11:03:37,633 - WARNING -  * Debugger is active!
+2026-06-15 11:03:37,671 - INFO -  * Debugger PIN: 891-547-848
+2026-06-15 11:03:42,352 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-15 11:03:42,470 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:42] "GET /dashboard HTTP/1.1" 200 -
+2026-06-15 11:03:42,565 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 11:03:42,585 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:42] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-06-15 11:03:42,636 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-15 11:03:55,552 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:55] "GET /logs HTTP/1.1" 200 -
+2026-06-15 11:03:55,575 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 11:03:55,582 - INFO - 127.0.0.1 - - [15/Jun/2026 11:03:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-15 11:04:19,067 - INFO - 127.0.0.1 - - [15/Jun/2026 11:04:19] "GET /renamer HTTP/1.1" 200 -
+2026-06-15 11:04:19,079 - INFO - 127.0.0.1 - - [15/Jun/2026 11:04:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 11:04:19,079 - INFO - 127.0.0.1 - - [15/Jun/2026 11:04:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-15 11:04:57,213 - INFO - 127.0.0.1 - - [15/Jun/2026 11:04:57] "GET /sorter HTTP/1.1" 200 -
+2026-06-15 11:04:57,227 - INFO - 127.0.0.1 - - [15/Jun/2026 11:04:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 11:04:57,232 - INFO - 127.0.0.1 - - [15/Jun/2026 11:04:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-15 11:05:05,099 - INFO - 127.0.0.1 - - [15/Jun/2026 11:05:05] "GET /duplicates HTTP/1.1" 200 -
+2026-06-15 11:05:05,112 - INFO - 127.0.0.1 - - [15/Jun/2026 11:05:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-06-15 11:05:05,116 - INFO - 127.0.0.1 - - [15/Jun/2026 11:05:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 11:05:08,518 - INFO - 127.0.0.1 - - [15/Jun/2026 11:05:08] "GET /cleanup HTTP/1.1" 200 -
+2026-06-15 11:05:08,536 - INFO - 127.0.0.1 - - [15/Jun/2026 11:05:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-15 11:05:08,538 - INFO - 127.0.0.1 - - [15/Jun/2026 11:05:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

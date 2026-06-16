@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %}Settings{% endblock %}
+
+{% block content %}
+<h1 class="mb-4"><i class="fas fa-cog me-2"></i>Settings</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">General Settings</h5>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+                    <div class="mb-3">
+                        <label for="default_folder" class="form-label">Default Folder Path</label>
+                        <input type="text" class="form-control" id="default_folder" name="default_folder" value="{{ default_folder }}">
+                        <small class="text-muted">This folder will be pre-filled in all forms</small>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="theme" class="form-label">Theme</label>
+                        <select class="form-select" id="theme" name="theme">
+                            <option value="light" {% if theme == 'light' %}selected{% endif %}>Light</option>
+                            <option value="dark" {% if theme == 'dark' %}selected{% endif %}>Dark</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-save me-2"></i>Save Settings
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">About</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Python Automation Script</strong> v1.0</p>
+                <p>A powerful file automation tool with features for renaming, sorting, duplicate detection, cleanup, and analytics.</p>
+                <hr>
+                <p><i class="fas fa-database"></i> Logs are stored in SQLite database and log files</p>
+                <p><i class="fas fa-folder"></i> All operations use Python's OS module</p>
+                <p><i class="fas fa-shield-alt"></i> Robust exception handling for all operations</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

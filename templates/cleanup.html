@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}Cleanup Center{% endblock %}
+
+{% block content %}
+<h1 class="mb-4"><i class="fas fa-broom me-2"></i>Cleanup Center</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <form method="POST">
+            <input type="hidden" name="action" value="scan">
+            <div class="mb-3">
+                <label for="folder_path" class="form-label">Folder Path <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="folder_path" name="folder_path" value="{{ folder_path or default_folder }}" required>
+            </div>
+            <div class="mb-3">
+                <label for="patterns" class="form-label">File Patterns (comma-separated)</label>
+                <input type="text" class="form-control" id="patterns" name="patterns" placeholder="*.tmp, *.log, *.cache">
+                <small class="text-muted">Leave empty to use default patterns: *.tmp, *.temp, *.log, *.cache, *.swp, *.bak</small>
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="include_subdirs" name="include_subdirs" checked>
+                    <label class="form-check-label" for="include_subdirs">
+                        Include subdirectories
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-info">
+                <i class="fas fa-search me-2"></i>Scan Temporary Files
+            </button>
+        </form>
+    </div>
+</div>
+
+{% if temp_files %}
+<div class="card">
+    <div class="card-header">
+        <h5 class="mb-0">Temporary Files Found</h5>
+    </div>
+    <div class="card-body">
+        <p>Total files: <strong>{{ temp_files.files|length }}</strong></p>
+        <p>Total size: <strong>{{ (temp_files.total_size / (1024*1024)) | round(2) }} MB</strong></p>
+        
+        <div class="table-responsive">
+            <table class="table table-sm">
+                <thead>
+                    <tr><th>File Name</th><th>Size (MB)</th><th>Path</th></tr>
+                </thead>
+                <tbody>
+                    {% for file in temp_files.files[:50] %}
+                    <tr>
+                        <td>{{ file.name }}</td>
+                        <td>{{ file.size_mb }}</td>
+                        <td><small>{{ file.path }}</small></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        <form method="POST">
+            <input type="hidden" name="action" value="clean">
+            <input type="hidden" name="folder_path" value="{{ folder_path }}">
+            <input type="hidden" name="patterns" value="{{ request.form.get('patterns', '') }}">
+            <input type="hidden" name="include_subdirs" value="{{ 'on' if request.form.get('include_subdirs') else '' }}">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete all these temporary files?')">
+                <i class="fas fa-trash-alt me-2"></i>Delete All ({{ temp_files.files|length }} files)
+            </button>
+        </form>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
