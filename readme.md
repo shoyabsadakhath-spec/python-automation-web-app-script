@@ -37,3 +37,10 @@ A powerful web-based automation tool for file operations including renaming, sor
 ```bash
 git clone https://github.com/yourusername/PythonAutomationScript.git
 cd PythonAutomationScript
+then run in cmd 
+pip install -r requirements.txt 
+enter 
+then run python app.py 
+you can see a local web host server link come 
+http://127.0.0.1:5000
+use ctrl+enter the web application run in your browser automatically 
